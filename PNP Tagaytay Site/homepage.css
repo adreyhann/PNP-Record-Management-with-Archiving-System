@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    position: relative;
+    height: 100vh;
+}
+  
+nav ul {
+    position: absolute;
+    top: 80px; /* position the list at the bottom of the container */
+    left: 0; /* position the list at the right side of the container */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    display: block; /* Set display property to block */
+}
+  
+nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000; 
+}
+  
+
+li:hover, li:active {
+    background-color: aquamarine;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
